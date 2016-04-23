@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F79A8FB4FD2AFC2376DBDDC /* Pods_QRcation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D85BE7EF69C61EB20E8ACA /* Pods_QRcation.framework */; };
 		3EA2016D1CCB65240059997C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA2016C1CCB65240059997C /* AppDelegate.swift */; };
 		3EA2016F1CCB65240059997C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA2016E1CCB65240059997C /* ViewController.swift */; };
 		3EA201721CCB65240059997C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EA201701CCB65240059997C /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		3EA201771CCB65240059997C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EA201751CCB65240059997C /* LaunchScreen.storyboard */; };
 		3EA201821CCB65240059997C /* QRcationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA201811CCB65240059997C /* QRcationTests.swift */; };
 		3EA2018D1CCB65240059997C /* QRcationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA2018C1CCB65240059997C /* QRcationUITests.swift */; };
+		3ED028371CCB81220031ACB1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED028361CCB81220031ACB1 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27D85BE7EF69C61EB20E8ACA /* Pods_QRcation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QRcation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EA201691CCB65240059997C /* QRcation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRcation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EA2016C1CCB65240059997C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EA2016E1CCB65240059997C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		3EA201881CCB65240059997C /* QRcationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRcationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EA2018C1CCB65240059997C /* QRcationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRcationUITests.swift; sourceTree = "<group>"; };
 		3EA2018E1CCB65240059997C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ED028361CCB81220031ACB1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7FAA02FD81CC7C3141B503E6 /* Pods-QRcation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRcation.release.xcconfig"; path = "Pods/Target Support Files/Pods-QRcation/Pods-QRcation.release.xcconfig"; sourceTree = "<group>"; };
+		D61F7893055C59EDBE23D2E8 /* Pods-QRcation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRcation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QRcation/Pods-QRcation.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ED028371CCB81220031ACB1 /* CoreLocation.framework in Frameworks */,
+				2F79A8FB4FD2AFC2376DBDDC /* Pods_QRcation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +89,8 @@
 				3EA201801CCB65240059997C /* QRcationTests */,
 				3EA2018B1CCB65240059997C /* QRcationUITests */,
 				3EA2016A1CCB65240059997C /* Products */,
+				589CEECF4AD16971EA787CED /* Pods */,
+				8BDE6DDA5BB711C0CDB21DEE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +135,24 @@
 			path = QRcationUITests;
 			sourceTree = "<group>";
 		};
+		589CEECF4AD16971EA787CED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D61F7893055C59EDBE23D2E8 /* Pods-QRcation.debug.xcconfig */,
+				7FAA02FD81CC7C3141B503E6 /* Pods-QRcation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8BDE6DDA5BB711C0CDB21DEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3ED028361CCB81220031ACB1 /* CoreLocation.framework */,
+				27D85BE7EF69C61EB20E8ACA /* Pods_QRcation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +160,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3EA201911CCB65240059997C /* Build configuration list for PBXNativeTarget "QRcation" */;
 			buildPhases = (
+				1F7618B5C1216D945F6F6EA8 /* Check Pods Manifest.lock */,
 				3EA201651CCB65240059997C /* Sources */,
 				3EA201661CCB65240059997C /* Frameworks */,
 				3EA201671CCB65240059997C /* Resources */,
+				21A04B125E4AC92C3FCA88D9 /* Embed Pods Frameworks */,
+				D21462FD8D1B7ADA2961F942 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +225,11 @@
 					3EA201681CCB65240059997C = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = 7978FZCSFK;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 					3EA2017C1CCB65240059997C = {
 						CreatedOnToolsVersion = 7.3;
@@ -253,6 +289,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F7618B5C1216D945F6F6EA8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		21A04B125E4AC92C3FCA88D9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QRcation/Pods-QRcation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D21462FD8D1B7ADA2961F942 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QRcation/Pods-QRcation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3EA201651CCB65240059997C /* Sources */ = {
@@ -402,6 +486,7 @@
 		};
 		3EA201921CCB65240059997C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D61F7893055C59EDBE23D2E8 /* Pods-QRcation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = QRcation/Info.plist;
@@ -413,6 +498,7 @@
 		};
 		3EA201931CCB65240059997C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FAA02FD81CC7C3141B503E6 /* Pods-QRcation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = QRcation/Info.plist;
@@ -487,6 +573,7 @@
 				3EA201931CCB65240059997C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3EA201941CCB65240059997C /* Build configuration list for PBXNativeTarget "QRcationTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +582,7 @@
 				3EA201961CCB65240059997C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3EA201971CCB65240059997C /* Build configuration list for PBXNativeTarget "QRcationUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +591,7 @@
 				3EA201991CCB65240059997C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

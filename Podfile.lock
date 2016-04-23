@@ -1,0 +1,10 @@
+PODS:
+  - QRCode (0.5)
+
+DEPENDENCIES:
+  - QRCode
+
+SPEC CHECKSUMS:
+  QRCode: a249ed747aeb0f4bf5f9c58b5b001b6b3bc80073
+
+COCOAPODS: 0.39.0
